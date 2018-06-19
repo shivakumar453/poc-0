@@ -1,0 +1,12 @@
+package com.hanover.batch;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBatchDbToDbApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBatchDbToDbApplication.class, args);
+	}
+}
